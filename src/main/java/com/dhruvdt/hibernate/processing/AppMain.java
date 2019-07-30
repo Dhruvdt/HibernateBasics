@@ -20,6 +20,9 @@ public class AppMain {
 		  Student student3 = new Student("John2",
 		  "Cena2", "john2@javaguides.com",3 ,new Date());
 		  
+		  Student student4 = new Student("John2",
+				  "Cena2", "john2@javaguides.com",3 ,new Date());
+		  
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		session.beginTransaction();
        
